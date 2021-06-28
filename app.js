@@ -7,7 +7,7 @@ var indexRouter = require('./routes/index');
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://db_files:27017/Files', 
+mongoose.connect('mongodb://db_files:27017/files', 
       { useNewUrlParser: true,
         useUnifiedTopology: true,
         serverSelectionTimeoutMS: 5000});
