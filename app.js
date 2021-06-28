@@ -7,7 +7,7 @@ var indexRouter = require('./routes/index');
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/Tarefas2021', 
+mongoose.connect('mongodb://db_files:27017/Files', 
       { useNewUrlParser: true,
         useUnifiedTopology: true,
         serverSelectionTimeoutMS: 5000});
